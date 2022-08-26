@@ -1,0 +1,59 @@
+/************************navbar here***************************/
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  justify-content: center;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+/*.active {
+  background-color: #04AA6D;
+}*/
+
+img {
+  width: 45px;
+  height: 45px;
+}
+
+  .left {
+ display: flex;
+ align-items: center;
+}
+
+.left #menu {
+ padding: 0 7px;
+ cursor: pointer;
+}
+
+
+/************************Content here***************************/
+
+/************************footer here***************************/
+ .footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #333;
+   color: white;
+   text-align: center;
+}
+

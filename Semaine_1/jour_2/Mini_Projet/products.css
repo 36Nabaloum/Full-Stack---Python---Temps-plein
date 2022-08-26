@@ -1,0 +1,158 @@
+/************************navbar here***************************/
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  justify-content: center;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+/*.active {
+  background-color: #04AA6D;
+}
+*/
+.logo {
+  width: 45px;
+  height: 45px;
+}
+
+  .left {
+ display: flex;
+ align-items: center;
+}
+
+.left #menu {
+ padding: 0 7px;
+ cursor: pointer;
+}
+/************************Content here**************************/
+
+.content, .image1, .image2, .image3,.image4,.thumbnail{
+  background-size:cover;
+  padding: 5px;
+border: 5px red;
+
+}
+.content{
+  justify-content: space-between;
+  display: flex;
+
+}
+.thumbnail{
+  width: 300px;
+  height: 515px;
+  justify-content: center;
+  margin-bottom: 6px;
+  margin-left: 6px;
+
+}
+
+.image1, .image2, .image3,.image4{
+    background-repeat: no-repeat;
+background-position:center center;
+font-weight: bold;
+ object-fit: cover;
+ justify-content: center;
+ background-size:contain;
+ margin-bottom: 6px;
+height: 300px;
+
+
+}
+
+.image1{
+
+    background-image: url(ShoppingProjectSetup_Week1Day2/image1.png);
+
+}
+
+.image2{
+    background-image: url(ShoppingProjectSetup_Week1Day2/image2.png);
+}
+.image3{
+
+    background-image: url(ShoppingProjectSetup_Week1Day2/image3.png);
+
+}
+.image4{
+
+    background-image: url(ShoppingProjectSetup_Week1Day2/image4.png);
+}
+
+.detaile{ font-weight: bold;
+     background-position: center;
+    border: 5px blue;
+    width: 285px;
+    text-align: center;
+
+}
+
+.prix{
+
+  color: green;
+}
+.pri{
+text-decoration: line-through;
+}
+
+
+.new{
+  margin: auto;  
+  padding: 10px;
+  text-align: center;
+  float: left;
+  border-radius: 100%;
+  background-color: green;
+}
+
+.reduit, .add{
+
+    padding: 10px;
+  text-align: center;
+   margin: auto
+
+}
+.reduit{
+ 
+  padding: 10px;
+  float: right;
+  border-radius: 100%;
+  background-color:red;
+}
+
+.add{
+  text-decoration: none;
+  color: black;
+  border: 2px solid darkgray;
+}
+
+p{
+
+}
+/************************footer here***************************/
+ .footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #333;
+   color: white;
+   text-align: center;
+}
